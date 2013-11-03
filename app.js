@@ -32,8 +32,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-var TWITTER_CONSUMER_KEY = "pWeT9NtSRCo5mbyzOGrew";
-var TWITTER_CONSUMER_SECRET = "5MsC72jswcKEhFOBz9QiyS3OcQiWvGQZhk6HdaiiII";
+var TWITTER_CONSUMER_KEY = "your consumer key";
+var TWITTER_CONSUMER_SECRET = "your consumer secret";
 
 // Passport session setup.
 // To support persistent login sessions, Passport needs to be able to
